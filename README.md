@@ -1,8 +1,7 @@
 # Structured Synthetic Augmentation as Data Regularization for Spatio-Temporal Anomaly Classification (fMRI + Video)
 
-This repository contains the code used to reproduce the main experimental pipeline and the **cross-domain generalization stress-tests** for binary anomaly classification in spatio-temporal data.
+This repository provides the code accompanying a research study on **structured synthetic augmentation as a data-level regularization mechanism for spatio-temporal anomaly classification**. The work focuses on scenarios with severe class imbalance and limited availability of anomalous samples, where standard learning procedures are prone to overfitting and poor generalization. The proposed approach introduces semantically constrained synthetic perturbations (e.g., region-of-interest–aware transformations in fMRI or geometry-preserving perturbations in feature space) and analyzes their effect on model stability under distribution shifts. The repository is intended to support reproducibility of the experimental protocol, including cross-domain evaluation, ablation studies, and baseline comparisons, as reported in the accompanying paper.
 
-The core idea is **structured synthetic augmentation** as a form of *data-level regularization*: generating semantically plausible perturbations in a constrained region/structure (e.g., ROI mask in fMRI, or local geometry in feature space for video) to improve stability under class imbalance and distribution shifts.
 
 
 
